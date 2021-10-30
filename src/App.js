@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import ReviewContainer from "./ReviewApp/ReviewContainer";
+import AccordionContainer from "./Accordion/AccordionContainer";
+import MenuContainer from "./MenuApp/MenuContainer";
+import TabContainer from "./TabProject/TabContainer";
+import SliderContainer from "./Slider/SliderContainer";
+import BirthdayRemainder from "./BirthdayRemainder/BirthdayRemainder";
+import TourContainer from "./Tourist/tourContainer";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		// <BirthdayRemainder />
+		// <TourContainer />
+		// <ReviewContainer />;
+		// <AccordionContainer />
+		// <MenuContainer />
+		// <TabContainer />
+		<SliderContainer />
+	);
 }
 
 export default App;
